@@ -33,7 +33,6 @@ class Triangles
 
   def is_isoceles?
     if ((@side1 == @side2) || (@side1 == @side3) || (@side3 == @side2))
-
       true
     end
   end
